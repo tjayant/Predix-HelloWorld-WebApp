@@ -8,5 +8,9 @@ applications:
     buildpack: staticfile_buildpack 
     memory: 256M
     stack: cflinuxfs2
+ services:
+  - log-stash
+  - redis
+  - my-uaa
 
 
